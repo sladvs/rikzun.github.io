@@ -1,22 +1,23 @@
 <template>
     <pre><span class="reserved">const</span> <span class="variable">me</span> = {
-    <span class="param">firstName</span>: <span class="string">'{{firstName}}'</span>,
-    <span class="param">lastName</span>: <span class="string">'{{lastName}}'</span>,
-    <span class="param">age</span>: <span class="number">20</span>,
+    <span class="param">firstName</span>: <span class="string">'Михаил'</span>,
+    <span class="param">lastName</span>: <span class="string">'Якименко'</span>,
+    <span class="param">age</span>: <span class="number">{{Math.floor((Date.now() - Date.parse('11.12.2000')) / 3154e7)}}</span>,
     <span class="param">sex</span>: <span class="string">'male'</span>,
     <span class="param">сity</span>: <span class="string">'Новороссийск'</span>,
 
-    <span class="param">skills</span>: [
-      { <span class="param">name</span>: <span class="string">'JavaScript'</span>, <span class="param">lvl</span>: <span class="number">7</span> },
-      { <span class="param">name</span>: <span class="string">'TypeScript'</span>, <span class="param">lvl</span>: <span class="number">6</span> },
-      { <span class="param">name</span>: <span class="string">'Python'</span>, <span class="param">lvl</span>: <span class="number">4</span> },
-      { <span class="param">name</span>: <span class="string">'HTML'</span>, <span class="param">lvl</span>: <span class="number">8</span> },
-      { <span class="param">name</span>: <span class="string">'CSS'</span>, <span class="param">lvl</span>: <span class="number">7</span> },
-      { <span class="param">name</span>: <span class="string">'SCSS'</span>, <span class="param">lvl</span>: <span class="number">6</span> },
-      { <span class="param">name</span>: <span class="string">'Vue.js'</span>, <span class="param">lvl</span>: <span class="number">5</span> },
-      { <span class="param">name</span>: <span class="string">'Nuxt.js'</span>, <span class="param">lvl</span>: <span class="number">4</span> },
-      { <span class="param">name</span>: <span class="string">'Node.js'</span>, <span class="param">lvl</span>: <span class="number">4</span> },
-      { <span class="param">name</span>: <span class="string">'REST API'</span>, <span class="param">lvl</span>: <span class="number">7</span> }
+    <span class="param">technicalSkills</span>: [
+      <span class="string">'JavaScript'</span>, <span class="string">'TypeScript'</span>,
+      <span class="string">'HTML'</span>, <span class="string">'CSS'</span>, <span class="string">'SCSS'</span>,
+      <span class="string">'Vue.js'</span>, 
+      <span class="string">'Node.js'</span>, 
+      <span class="string">'REST API'</span>
+    ],
+
+    <span class="param">familiarWith</span>: [
+      <span class="string">'Nuxt.js'</span>,
+      <span class="string">'Python'</span>,
+      <span class="string">'C#'</span>
     ],
 
     <span class="param">workExperience</span>: <span class="reserved">null</span>,
@@ -38,7 +39,8 @@
     ],
 
     <span class="param">mail</span>: <span class="string">'<a href="mailto:rik.zunqq@gmail.com">rik.zunqq@gmail.com</a>'</span>,
-    <span class="param">github</span>: <span class="string">'<a href="https://github.com/rikzun" target="_blank">https://github.com/rikzun</a>'</span>
+    <span class="param">github</span>: <span class="string">'<a href="https://github.com/rikzun" target="_blank">https://github.com/rikzun</a>'</span>,
+    <span class="param">linkedin</span>: <span class="string">'<a href="https://www.linkedin.com/in/rik-zun/" target="_blank">https://www.linkedin.com/in/rik-zun</a>'</span>
   }</pre>
 </template>
 
@@ -46,12 +48,7 @@
 import { Component, Vue } from 'vue-property-decorator'
 
 @Component
-export default class App extends Vue {
-  params = new URLSearchParams(document.location.search)
-  firstName = this.params.get('fn') || 'Александр'
-  lastName = this.params.get('ln') || 'Лень'
-  age = Math.floor((Date.now() - Date.parse('11.12.2000')) / 3154e6)
-}
+export default class App extends Vue {}
 </script>
 
 <style lang="sass">

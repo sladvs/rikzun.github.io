@@ -79,7 +79,7 @@ body
   font-family: Consolas, "Courier New", monospace
 
 pre
-  width: fit-content
+  width: max-content
   white-space: pre-wrap
   line-height: 19px
   left: 0

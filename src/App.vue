@@ -2,7 +2,7 @@
     <pre><span class="reserved">const</span> <span class="variable">me</span> = {
     <span class="param">firstName</span>: <span class="string">'Михаил'</span>,
     <span class="param">lastName</span>: <span class="string">'Якименко'</span>,
-    <span class="param">age</span>: <span class="number">{{Math.floor((Date.now() - Date.parse('11.12.2000')) / 3154e7)}}</span>,
+    <span class="param">age</span>: <span class="number">{{Math.floor((Date.now() - Date.parse('2000-12-11')) / 3154e7)}}</span>,
     <span class="param">sex</span>: <span class="string">'male'</span>,
     <span class="param">сity</span>: <span class="string">'Новороссийск'</span>,
 

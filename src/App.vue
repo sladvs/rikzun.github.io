@@ -22,7 +22,8 @@
     ],
 
     <span class="param">workExperience</span>: [
-      <span class="param">sevenWinds</span>: {
+      {
+        <span class="param">company</span>: <span class="string">'7Winds'</span>,
         <span class="param">position</span>: <span class="string">'Frontend React Developer'</span>,
         <span class="param">time</span>: <span class="string">'{{Math.ceil((Date.now() - 16230132e5) / (1000 * 3600 * 24))}} days'</span>
       }

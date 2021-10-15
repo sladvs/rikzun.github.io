@@ -9,13 +9,15 @@
     <span class="param">technicalSkills</span>: [
       <span class="string">'JavaScript'</span>, <span class="string">'TypeScript'</span>,
       <span class="string">'HTML'</span>, <span class="string">'CSS'</span>, <span class="string">'SCSS'</span>,
-      <span class="string">'React'</span>, <span class="string">'Vue.js'</span>, 
-      <span class="string">'Webpack'</span>, <span class="string">'Node.js'</span>, 
-      <span class="string">'REST API'</span>
+      <span class="string">'React'</span>, <span class="string">'Vue.js'</span>, <span class="string">'Svelte'</span>,
+      <span class="string">'Webpack'</span>, <span class="string">'Node.js'</span>,
+      <span class="string">'REST API'</span>, <span class="string">'Kotlin'</span>
     ],
 
     <span class="param">familiarWith</span>: [
+      <span class="string">'Express.js'</span>,
       <span class="string">'Nuxt.js'</span>,
+      <span class="string">'ktor'</span>,
       <span class="string">'Python'</span>,
       <span class="string">'C++'</span>,
       <span class="string">'C#'</span>
@@ -25,6 +27,7 @@
       {
         <span class="param">company</span>: <span class="string">'7Winds'</span>,
         <span class="param">position</span>: <span class="string">'Frontend React Developer'</span>,
+        <span class="param">projectsCount</span>: <span class="number">2</span>,
         <span class="param">time</span>: <span class="string">'{{Math.ceil((Date.now() - 16230132e5) / (1000 * 3600 * 24))}} days'</span>
       }
     ]
@@ -47,6 +50,7 @@
       <span class="string">'Frontend Developer'</span>,
       <span class="string">'Frontend Vue Developer'</span>,
       <span class="string">'Frontend React Developer'</span>,
+      <span class="string">'Frontend Svelte Developer'</span>,
       <span class="string">'Backend JavaScript Developer'</span>,
       <span class="string">'Backend TypeScript Developer'</span>
     ],

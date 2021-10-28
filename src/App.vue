@@ -26,10 +26,19 @@
     <span class="param">workExperience</span>: [
       {
         <span class="param">company</span>: <span class="string">'7Winds'</span>,
-        <span class="param">position</span>: <span class="string">'Frontend React Developer'</span>,
-        <span class="param">projectsCount</span>: <span class="number">2</span>,
-        <span class="param">time</span>: <span class="string">'{{Math.ceil((Date.now() - 16230132e5) / (1000 * 3600 * 24))}} days'</span>
-      }
+        <span class="param">positions</span>: [
+          {
+            <span class="param">name</span>: <span class="string">'Frontend React Developer'</span>,
+            <span class="param">projects</span>: <span class="number">2</span>,
+            <span class="param">time</span>: <span class="string">'142 days'</span>
+          },
+          {
+            <span class="param">name</span>: <span class="string">'Fullstack developer (React, Kotlin)'</span>,
+            <span class="param">projects</span>: <span class="number">1</span>,
+            <span class="param">time</span>: <span class="string">'{{Math.ceil((Date.now() - 16353684e5) / (1000 * 3600 * 24))}} days'</span>
+          }
+        ]
+      {
     ]
 
     <span class="param">acceptable</span>: {

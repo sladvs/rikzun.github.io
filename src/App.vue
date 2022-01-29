@@ -7,11 +7,10 @@
     <span class="param">сity</span>: <span class="string">'Новороссийск'</span>,
 
     <span class="param">technicalSkills</span>: [
-      <span class="string">'JavaScript'</span>, <span class="string">'TypeScript'</span>,
+      <span class="string">'JavaScript'</span>, <span class="string">'TypeScript'</span>, <span class="string">'Kotlin'</span>,
       <span class="string">'HTML'</span>, <span class="string">'CSS'</span>, <span class="string">'SCSS'</span>,
       <span class="string">'React'</span>, <span class="string">'Vue.js'</span>, <span class="string">'Svelte'</span>,
-      <span class="string">'Webpack'</span>, <span class="string">'Node.js'</span>,
-      <span class="string">'REST API'</span>, <span class="string">'Kotlin'</span>
+      <span class="string">'Webpack'</span>, <span class="string">'Node.js'</span>
     ],
 
     <span class="param">familiarWith</span>: [
@@ -39,11 +38,10 @@
           }
         ]
       {
-    ]
+    ],
 
     <span class="param">acceptable</span>: {
       <span class="param">kindОfWork</span>: [
-        <span class="string">'Стажировка'</span>,
         <span class="string">'Частичная занятость'</span>,
         <span class="string">'Полная занятость'</span>
       ],
@@ -61,7 +59,8 @@
       <span class="string">'Frontend React Developer'</span>,
       <span class="string">'Frontend Svelte Developer'</span>,
       <span class="string">'Backend JavaScript Developer'</span>,
-      <span class="string">'Backend TypeScript Developer'</span>
+      <span class="string">'Backend TypeScript Developer'</span>,
+        <span class="string">'Fullstack Developer'</span>,
     ],
 
     <span class="param">mail</span>: <span class="string">'<a href="mailto:rik.zunqq@gmail.com">rik.zunqq@gmail.com</a>'</span>,

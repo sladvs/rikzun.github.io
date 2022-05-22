@@ -37,7 +37,7 @@
             <span class="param">time</span>: <span class="string">'{{Math.ceil((Date.now() - 16353684e5) / (1000 * 3600 * 24))}} days'</span>
           }
         ]
-      {
+      }
     ],
 
     <span class="param">acceptable</span>: {
@@ -60,7 +60,7 @@
       <span class="string">'Frontend Svelte Developer'</span>,
       <span class="string">'Backend JavaScript Developer'</span>,
       <span class="string">'Backend TypeScript Developer'</span>,
-        <span class="string">'Fullstack Developer'</span>,
+      <span class="string">'Fullstack Developer'</span>
     ],
 
     <span class="param">mail</span>: <span class="string">'<a href="mailto:rik.zunqq@gmail.com">rik.zunqq@gmail.com</a>'</span>,

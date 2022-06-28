@@ -10,7 +10,8 @@
       <span class="string">'JavaScript'</span>, <span class="string">'TypeScript'</span>, <span class="string">'Kotlin'</span>,
       <span class="string">'HTML'</span>, <span class="string">'CSS'</span>, <span class="string">'SCSS'</span>,
       <span class="string">'React'</span>, <span class="string">'Vue.js'</span>, <span class="string">'Svelte'</span>,
-      <span class="string">'Webpack'</span>, <span class="string">'Node.js'</span>
+      <span class="string">'Webpack'</span>, <span class="string">'Node.js'</span>,
+      <span class="string">'Git'</span>, <span class="string">'Figma'</span>
     ],
 
     <span class="param">familiarWith</span>: [
